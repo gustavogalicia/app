@@ -1,8 +1,8 @@
 @extends('layouts.app')
 @section('app')
-	<!-- @auth
+	{{-- @auth
 		@include('home')
-	@else -->
+	@else --}}
     	@include('layouts.login')
-	<!-- @endauth -->
+	{{-- @endauth --}}
 @stop
